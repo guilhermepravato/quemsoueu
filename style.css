@@ -1,16 +1,17 @@
-*{
-margin:0;
-padding:0;
+
+* {
+margin: 0;
+padding: 0;
 box-sizing: border-box;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
 background: #f0f0f0;
 padding: 20px;
 }
 
-.container{
+.container {
 max-width: 800px;
 margin: auto;
 background: #fff;
@@ -18,31 +19,29 @@ border-radius: 12px;
 box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 padding: 30px;
 }
-.perfil{
+
+.perfil {
 display: flex;
 align-items: center;
-gap:20px
+gap: 20px;
 }
 
-.perfil img{
+.perfil img {
 width: 120px;
 height: 120px;
 object-fit: cover;
 border-radius: 50%;
-border:3px solid #6c63ff
+border: 3px solid #6C63FF;
 }
 
 .info-basica h1 {
 font-size: 28px;
 color: #333;
-
 }
-
 
 .info-basica p {
 font-size: 16px;
-color:  #666;
-
+color: #666;
 }
 
 .sessao {
@@ -51,8 +50,8 @@ margin-top: 30px;
 
 .sessao h2 {
 font-size: 22px;
-color: #6c63ff;
-border-left:5px solid #6c63ff;
+color: #6C63FF;
+border-left: 5px solid #6C63FF;
 padding-left: 10px;
 margin-bottom: 10px;
 }
@@ -60,20 +59,17 @@ margin-bottom: 10px;
 .sessao ul {
 list-style: none;
 padding-left: 20px;
-
 }
 
 .sessao ul li::before {
-content:"➞";
-margin-right: 8xp;
-
+content: "⭐";
+margin-right: 8px;
 }
 
 .redes a {
 margin-right: 10px;
-color:#6c63ff;
+color: #6C63FF;
 text-decoration: none;
-
 }
 
 .redes a:hover {
@@ -81,12 +77,12 @@ text-decoration: underline;
 }
 
 @media (max-width: 600px) {
-    .perfil {
+.perfil {
 flex-direction: column;
 text-align: center;
-    }
-.perfil img{
-    margin-bottom: 10px;
-}
 }
 
+.perfil img {
+margin-bottom: 10px;
+}
+}
